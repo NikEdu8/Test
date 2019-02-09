@@ -58,6 +58,7 @@ namespace WebApi.Services
             user.Token = tokenHandler.WriteToken(token);
 
             // remove password before returning
+            //some modifivations
             user.Password = null;
 
             return user;
