@@ -35,6 +35,11 @@ namespace just.Controllers
         public void Put(int id, [FromBody] string value)
         {
         }
+        // PUT api/values/5
+        [HttpPut("{id}")]
+        public void Put333(int id, [FromBody] string value)
+        {
+        }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
