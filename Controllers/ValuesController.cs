@@ -55,7 +55,7 @@ namespace just.Controllers
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void D(int id)
+        public void D333(int id)
         {
         }
 
