@@ -37,13 +37,13 @@ namespace just.Controllers
         }
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put333(int id, [FromBody] string value)
+        public void Put111(int id, [FromBody] string value)
         {
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete333(int id)
+        public void Delete111(int id)
         {
         }
     }
